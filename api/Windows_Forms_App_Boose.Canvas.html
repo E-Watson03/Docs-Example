@@ -1,0 +1,738 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Canvas | Boose Docs Ellie Watson </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Canvas | Boose Docs Ellie Watson ">
+      
+      <meta name="description" content="Represents a canvas for drawing shapes, lines, and text. Implements the  interface.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/new/main/apiSpec/new?filename=Windows_Forms_App_Boose_Canvas.md&amp;value=---%0Auid%3A%20Windows_Forms_App_Boose.Canvas%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Boose Docs Ellie Watson">
+            Boose Docs Ellie Watson
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Windows_Forms_App_Boose.Canvas">
+
+
+
+  <h1 id="Windows_Forms_App_Boose_Canvas" data-uid="Windows_Forms_App_Boose.Canvas" class="text-break">
+Class Canvas  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Windows_Forms_App_Boose.html">Windows_Forms_App_Boose</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Windows Forms App Boose.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a canvas for drawing shapes, lines, and text. Implements the <span class="xref">BOOSE.ICanvas</span> interface.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Canvas : ICanvas</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Canvas</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">ICanvas</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Windows_Forms_App_Boose_Canvas__ctor_" data-uid="Windows_Forms_App_Boose.Canvas.#ctor*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas__ctor" data-uid="Windows_Forms_App_Boose.Canvas.#ctor">
+  Canvas()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Windows_Forms_App_Boose.Canvas.html">Canvas</a> class with default settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Canvas()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_PenColour_" data-uid="Windows_Forms_App_Boose.Canvas.PenColour*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_PenColour" data-uid="Windows_Forms_App_Boose.Canvas.PenColour">
+  PenColour
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the current pen color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object PenColour { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_Xpos_" data-uid="Windows_Forms_App_Boose.Canvas.Xpos*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_Xpos" data-uid="Windows_Forms_App_Boose.Canvas.Xpos">
+  Xpos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the current x-coordinate position on the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Xpos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_Ypos_" data-uid="Windows_Forms_App_Boose.Canvas.Ypos*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_Ypos" data-uid="Windows_Forms_App_Boose.Canvas.Ypos">
+  Ypos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the current y-coordinate position on the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Ypos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_Circle_" data-uid="Windows_Forms_App_Boose.Canvas.Circle*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_Circle_System_Int32_System_Boolean_" data-uid="Windows_Forms_App_Boose.Canvas.Circle(System.Int32,System.Boolean)">
+  Circle(int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a circle at the current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Circle(int radius, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The radius of the circle.</p>
+</dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Specifies if the circle is filled or outlined.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the radius is invalid.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_Clear_" data-uid="Windows_Forms_App_Boose.Canvas.Clear*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_Clear" data-uid="Windows_Forms_App_Boose.Canvas.Clear">
+  Clear()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clears the canvas and resets the position to the top-left corner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_DrawTo_" data-uid="Windows_Forms_App_Boose.Canvas.DrawTo*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_DrawTo_System_Int32_System_Int32_" data-uid="Windows_Forms_App_Boose.Canvas.DrawTo(System.Int32,System.Int32)">
+  DrawTo(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a line from the current position to the specified coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawTo(int toX, int toY)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>toX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The x-coordinate of the end point.</p>
+</dd>
+    <dt><code>toY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The y-coordinate of the end point.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the coordinates are out of bounds.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_MoveTo_" data-uid="Windows_Forms_App_Boose.Canvas.MoveTo*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_MoveTo_System_Int32_System_Int32_" data-uid="Windows_Forms_App_Boose.Canvas.MoveTo(System.Int32,System.Int32)">
+  MoveTo(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Moves the current position to the specified coordinates without drawing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveTo(int x, int y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The x-coordinate of the new position.</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The y-coordinate of the new position.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the coordinates are out of bounds.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_Rect_" data-uid="Windows_Forms_App_Boose.Canvas.Rect*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="Windows_Forms_App_Boose.Canvas.Rect(System.Int32,System.Int32,System.Boolean)">
+  Rect(int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a rectangle at the current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Rect(int width, int height, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The width of the rectangle.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The height of the rectangle.</p>
+</dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Specifies if the rectangle is filled or outlined.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the width or height is invalid.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_Reset_" data-uid="Windows_Forms_App_Boose.Canvas.Reset*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_Reset" data-uid="Windows_Forms_App_Boose.Canvas.Reset">
+  Reset()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resets the canvas to its default state, including position and color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_Set_" data-uid="Windows_Forms_App_Boose.Canvas.Set*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_Set_System_Int32_System_Int32_" data-uid="Windows_Forms_App_Boose.Canvas.Set(System.Int32,System.Int32)">
+  Set(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the size of the canvas and initializes the graphics context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(int xsize, int ysize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>xsize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The width of the canvas.</p>
+</dd>
+    <dt><code>ysize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The height of the canvas.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_SetColour_" data-uid="Windows_Forms_App_Boose.Canvas.SetColour*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_SetColour_System_Int32_System_Int32_System_Int32_" data-uid="Windows_Forms_App_Boose.Canvas.SetColour(System.Int32,System.Int32,System.Int32)">
+  SetColour(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the color of the pen used for drawing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColour(int red, int green, int blue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>red</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The red component of the color (0-255).</p>
+</dd>
+    <dt><code>green</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The green component of the color (0-255).</p>
+</dd>
+    <dt><code>blue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The blue component of the color (0-255).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if any color component is out of range.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_Tri_" data-uid="Windows_Forms_App_Boose.Canvas.Tri*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_Tri_System_Int32_System_Int32_" data-uid="Windows_Forms_App_Boose.Canvas.Tri(System.Int32,System.Int32)">
+  Tri(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a triangle at the current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Tri(int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The base width of the triangle.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The height of the triangle.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the width or height is invalid.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_WriteText_" data-uid="Windows_Forms_App_Boose.Canvas.WriteText*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_WriteText_System_String_" data-uid="Windows_Forms_App_Boose.Canvas.WriteText(System.String)">
+  WriteText(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes text at the current position on the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteText(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to draw.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown if the text is null or empty.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Windows_Forms_App_Boose_Canvas_getBitmap_" data-uid="Windows_Forms_App_Boose.Canvas.getBitmap*"></a>
+
+  <h3 id="Windows_Forms_App_Boose_Canvas_getBitmap" data-uid="Windows_Forms_App_Boose.Canvas.getBitmap">
+  getBitmap()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the bitmap representing the current state of the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object getBitmap()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The bitmap image of the canvas.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-E-Watson03/blob/main/Windows Forms App Boose/Canvas.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

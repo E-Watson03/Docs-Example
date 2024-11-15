@@ -1,0 +1,345 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Windows_Forms_App_Boose
+  name: Windows_Forms_App_Boose
+  href: api/Windows_Forms_App_Boose.html
+  commentId: N:Windows_Forms_App_Boose
+  fullName: Windows_Forms_App_Boose
+  nameWithType: Windows_Forms_App_Boose
+- uid: Windows_Forms_App_Boose.Canvas
+  name: Canvas
+  href: api/Windows_Forms_App_Boose.Canvas.html
+  commentId: T:Windows_Forms_App_Boose.Canvas
+  fullName: Windows_Forms_App_Boose.Canvas
+  nameWithType: Canvas
+- uid: Windows_Forms_App_Boose.Canvas.#ctor
+  name: Canvas()
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas__ctor
+  commentId: M:Windows_Forms_App_Boose.Canvas.#ctor
+  name.vb: New()
+  fullName: Windows_Forms_App_Boose.Canvas.Canvas()
+  fullName.vb: Windows_Forms_App_Boose.Canvas.New()
+  nameWithType: Canvas.Canvas()
+  nameWithType.vb: Canvas.New()
+- uid: Windows_Forms_App_Boose.Canvas.#ctor*
+  name: Canvas
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas__ctor_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Windows_Forms_App_Boose.Canvas.Canvas
+  fullName.vb: Windows_Forms_App_Boose.Canvas.New
+  nameWithType: Canvas.Canvas
+  nameWithType.vb: Canvas.New
+- uid: Windows_Forms_App_Boose.Canvas.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Circle_System_Int32_System_Boolean_
+  commentId: M:Windows_Forms_App_Boose.Canvas.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: Windows_Forms_App_Boose.Canvas.Circle(int, bool)
+  fullName.vb: Windows_Forms_App_Boose.Canvas.Circle(Integer, Boolean)
+  nameWithType: Canvas.Circle(int, bool)
+  nameWithType.vb: Canvas.Circle(Integer, Boolean)
+- uid: Windows_Forms_App_Boose.Canvas.Circle*
+  name: Circle
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Circle_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.Circle
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.Circle
+  nameWithType: Canvas.Circle
+- uid: Windows_Forms_App_Boose.Canvas.Clear
+  name: Clear()
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Clear
+  commentId: M:Windows_Forms_App_Boose.Canvas.Clear
+  fullName: Windows_Forms_App_Boose.Canvas.Clear()
+  nameWithType: Canvas.Clear()
+- uid: Windows_Forms_App_Boose.Canvas.Clear*
+  name: Clear
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Clear_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.Clear
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.Clear
+  nameWithType: Canvas.Clear
+- uid: Windows_Forms_App_Boose.Canvas.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_DrawTo_System_Int32_System_Int32_
+  commentId: M:Windows_Forms_App_Boose.Canvas.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: Windows_Forms_App_Boose.Canvas.DrawTo(int, int)
+  fullName.vb: Windows_Forms_App_Boose.Canvas.DrawTo(Integer, Integer)
+  nameWithType: Canvas.DrawTo(int, int)
+  nameWithType.vb: Canvas.DrawTo(Integer, Integer)
+- uid: Windows_Forms_App_Boose.Canvas.DrawTo*
+  name: DrawTo
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_DrawTo_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.DrawTo
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.DrawTo
+  nameWithType: Canvas.DrawTo
+- uid: Windows_Forms_App_Boose.Canvas.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_MoveTo_System_Int32_System_Int32_
+  commentId: M:Windows_Forms_App_Boose.Canvas.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: Windows_Forms_App_Boose.Canvas.MoveTo(int, int)
+  fullName.vb: Windows_Forms_App_Boose.Canvas.MoveTo(Integer, Integer)
+  nameWithType: Canvas.MoveTo(int, int)
+  nameWithType.vb: Canvas.MoveTo(Integer, Integer)
+- uid: Windows_Forms_App_Boose.Canvas.MoveTo*
+  name: MoveTo
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_MoveTo_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.MoveTo
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.MoveTo
+  nameWithType: Canvas.MoveTo
+- uid: Windows_Forms_App_Boose.Canvas.PenColour
+  name: PenColour
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_PenColour
+  commentId: P:Windows_Forms_App_Boose.Canvas.PenColour
+  fullName: Windows_Forms_App_Boose.Canvas.PenColour
+  nameWithType: Canvas.PenColour
+- uid: Windows_Forms_App_Boose.Canvas.PenColour*
+  name: PenColour
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_PenColour_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.PenColour
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.PenColour
+  nameWithType: Canvas.PenColour
+- uid: Windows_Forms_App_Boose.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Windows_Forms_App_Boose.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: Windows_Forms_App_Boose.Canvas.Rect(int, int, bool)
+  fullName.vb: Windows_Forms_App_Boose.Canvas.Rect(Integer, Integer, Boolean)
+  nameWithType: Canvas.Rect(int, int, bool)
+  nameWithType.vb: Canvas.Rect(Integer, Integer, Boolean)
+- uid: Windows_Forms_App_Boose.Canvas.Rect*
+  name: Rect
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Rect_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.Rect
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.Rect
+  nameWithType: Canvas.Rect
+- uid: Windows_Forms_App_Boose.Canvas.Reset
+  name: Reset()
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Reset
+  commentId: M:Windows_Forms_App_Boose.Canvas.Reset
+  fullName: Windows_Forms_App_Boose.Canvas.Reset()
+  nameWithType: Canvas.Reset()
+- uid: Windows_Forms_App_Boose.Canvas.Reset*
+  name: Reset
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Reset_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.Reset
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.Reset
+  nameWithType: Canvas.Reset
+- uid: Windows_Forms_App_Boose.Canvas.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Set_System_Int32_System_Int32_
+  commentId: M:Windows_Forms_App_Boose.Canvas.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: Windows_Forms_App_Boose.Canvas.Set(int, int)
+  fullName.vb: Windows_Forms_App_Boose.Canvas.Set(Integer, Integer)
+  nameWithType: Canvas.Set(int, int)
+  nameWithType.vb: Canvas.Set(Integer, Integer)
+- uid: Windows_Forms_App_Boose.Canvas.Set*
+  name: Set
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Set_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.Set
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.Set
+  nameWithType: Canvas.Set
+- uid: Windows_Forms_App_Boose.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:Windows_Forms_App_Boose.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: Windows_Forms_App_Boose.Canvas.SetColour(int, int, int)
+  fullName.vb: Windows_Forms_App_Boose.Canvas.SetColour(Integer, Integer, Integer)
+  nameWithType: Canvas.SetColour(int, int, int)
+  nameWithType.vb: Canvas.SetColour(Integer, Integer, Integer)
+- uid: Windows_Forms_App_Boose.Canvas.SetColour*
+  name: SetColour
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_SetColour_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.SetColour
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.SetColour
+  nameWithType: Canvas.SetColour
+- uid: Windows_Forms_App_Boose.Canvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Tri_System_Int32_System_Int32_
+  commentId: M:Windows_Forms_App_Boose.Canvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: Windows_Forms_App_Boose.Canvas.Tri(int, int)
+  fullName.vb: Windows_Forms_App_Boose.Canvas.Tri(Integer, Integer)
+  nameWithType: Canvas.Tri(int, int)
+  nameWithType.vb: Canvas.Tri(Integer, Integer)
+- uid: Windows_Forms_App_Boose.Canvas.Tri*
+  name: Tri
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Tri_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.Tri
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.Tri
+  nameWithType: Canvas.Tri
+- uid: Windows_Forms_App_Boose.Canvas.WriteText(System.String)
+  name: WriteText(string)
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_WriteText_System_String_
+  commentId: M:Windows_Forms_App_Boose.Canvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: Windows_Forms_App_Boose.Canvas.WriteText(string)
+  fullName.vb: Windows_Forms_App_Boose.Canvas.WriteText(String)
+  nameWithType: Canvas.WriteText(string)
+  nameWithType.vb: Canvas.WriteText(String)
+- uid: Windows_Forms_App_Boose.Canvas.WriteText*
+  name: WriteText
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_WriteText_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.WriteText
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.WriteText
+  nameWithType: Canvas.WriteText
+- uid: Windows_Forms_App_Boose.Canvas.Xpos
+  name: Xpos
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Xpos
+  commentId: P:Windows_Forms_App_Boose.Canvas.Xpos
+  fullName: Windows_Forms_App_Boose.Canvas.Xpos
+  nameWithType: Canvas.Xpos
+- uid: Windows_Forms_App_Boose.Canvas.Xpos*
+  name: Xpos
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Xpos_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.Xpos
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.Xpos
+  nameWithType: Canvas.Xpos
+- uid: Windows_Forms_App_Boose.Canvas.Ypos
+  name: Ypos
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Ypos
+  commentId: P:Windows_Forms_App_Boose.Canvas.Ypos
+  fullName: Windows_Forms_App_Boose.Canvas.Ypos
+  nameWithType: Canvas.Ypos
+- uid: Windows_Forms_App_Boose.Canvas.Ypos*
+  name: Ypos
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_Ypos_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.Ypos
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.Ypos
+  nameWithType: Canvas.Ypos
+- uid: Windows_Forms_App_Boose.Canvas.getBitmap
+  name: getBitmap()
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_getBitmap
+  commentId: M:Windows_Forms_App_Boose.Canvas.getBitmap
+  fullName: Windows_Forms_App_Boose.Canvas.getBitmap()
+  nameWithType: Canvas.getBitmap()
+- uid: Windows_Forms_App_Boose.Canvas.getBitmap*
+  name: getBitmap
+  href: api/Windows_Forms_App_Boose.Canvas.html#Windows_Forms_App_Boose_Canvas_getBitmap_
+  commentId: Overload:Windows_Forms_App_Boose.Canvas.getBitmap
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Canvas.getBitmap
+  nameWithType: Canvas.getBitmap
+- uid: Windows_Forms_App_Boose.Form1
+  name: Form1
+  href: api/Windows_Forms_App_Boose.Form1.html
+  commentId: T:Windows_Forms_App_Boose.Form1
+  fullName: Windows_Forms_App_Boose.Form1
+  nameWithType: Form1
+- uid: Windows_Forms_App_Boose.Form1.#ctor
+  name: Form1()
+  href: api/Windows_Forms_App_Boose.Form1.html#Windows_Forms_App_Boose_Form1__ctor
+  commentId: M:Windows_Forms_App_Boose.Form1.#ctor
+  name.vb: New()
+  fullName: Windows_Forms_App_Boose.Form1.Form1()
+  fullName.vb: Windows_Forms_App_Boose.Form1.New()
+  nameWithType: Form1.Form1()
+  nameWithType.vb: Form1.New()
+- uid: Windows_Forms_App_Boose.Form1.#ctor*
+  name: Form1
+  href: api/Windows_Forms_App_Boose.Form1.html#Windows_Forms_App_Boose_Form1__ctor_
+  commentId: Overload:Windows_Forms_App_Boose.Form1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Windows_Forms_App_Boose.Form1.Form1
+  fullName.vb: Windows_Forms_App_Boose.Form1.New
+  nameWithType: Form1.Form1
+  nameWithType.vb: Form1.New
+- uid: Windows_Forms_App_Boose.Form1.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Windows_Forms_App_Boose.Form1.html#Windows_Forms_App_Boose_Form1_Dispose_System_Boolean_
+  commentId: M:Windows_Forms_App_Boose.Form1.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Windows_Forms_App_Boose.Form1.Dispose(bool)
+  fullName.vb: Windows_Forms_App_Boose.Form1.Dispose(Boolean)
+  nameWithType: Form1.Dispose(bool)
+  nameWithType.vb: Form1.Dispose(Boolean)
+- uid: Windows_Forms_App_Boose.Form1.Dispose*
+  name: Dispose
+  href: api/Windows_Forms_App_Boose.Form1.html#Windows_Forms_App_Boose_Form1_Dispose_
+  commentId: Overload:Windows_Forms_App_Boose.Form1.Dispose
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Form1.Dispose
+  nameWithType: Form1.Dispose
+- uid: Windows_Forms_App_Boose.Tests
+  name: Windows_Forms_App_Boose.Tests
+  href: api/Windows_Forms_App_Boose.Tests.html
+  commentId: N:Windows_Forms_App_Boose.Tests
+  fullName: Windows_Forms_App_Boose.Tests
+  nameWithType: Windows_Forms_App_Boose.Tests
+- uid: Windows_Forms_App_Boose.Tests.CanvasTests
+  name: CanvasTests
+  href: api/Windows_Forms_App_Boose.Tests.CanvasTests.html
+  commentId: T:Windows_Forms_App_Boose.Tests.CanvasTests
+  fullName: Windows_Forms_App_Boose.Tests.CanvasTests
+  nameWithType: CanvasTests
+- uid: Windows_Forms_App_Boose.Tests.CanvasTests.DrawTo_UpdatesPositionCorrectly
+  name: DrawTo_UpdatesPositionCorrectly()
+  href: api/Windows_Forms_App_Boose.Tests.CanvasTests.html#Windows_Forms_App_Boose_Tests_CanvasTests_DrawTo_UpdatesPositionCorrectly
+  commentId: M:Windows_Forms_App_Boose.Tests.CanvasTests.DrawTo_UpdatesPositionCorrectly
+  fullName: Windows_Forms_App_Boose.Tests.CanvasTests.DrawTo_UpdatesPositionCorrectly()
+  nameWithType: CanvasTests.DrawTo_UpdatesPositionCorrectly()
+- uid: Windows_Forms_App_Boose.Tests.CanvasTests.DrawTo_UpdatesPositionCorrectly*
+  name: DrawTo_UpdatesPositionCorrectly
+  href: api/Windows_Forms_App_Boose.Tests.CanvasTests.html#Windows_Forms_App_Boose_Tests_CanvasTests_DrawTo_UpdatesPositionCorrectly_
+  commentId: Overload:Windows_Forms_App_Boose.Tests.CanvasTests.DrawTo_UpdatesPositionCorrectly
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Tests.CanvasTests.DrawTo_UpdatesPositionCorrectly
+  nameWithType: CanvasTests.DrawTo_UpdatesPositionCorrectly
+- uid: Windows_Forms_App_Boose.Tests.CanvasTests.MoveTo_SetsCorrectPosition
+  name: MoveTo_SetsCorrectPosition()
+  href: api/Windows_Forms_App_Boose.Tests.CanvasTests.html#Windows_Forms_App_Boose_Tests_CanvasTests_MoveTo_SetsCorrectPosition
+  commentId: M:Windows_Forms_App_Boose.Tests.CanvasTests.MoveTo_SetsCorrectPosition
+  fullName: Windows_Forms_App_Boose.Tests.CanvasTests.MoveTo_SetsCorrectPosition()
+  nameWithType: CanvasTests.MoveTo_SetsCorrectPosition()
+- uid: Windows_Forms_App_Boose.Tests.CanvasTests.MoveTo_SetsCorrectPosition*
+  name: MoveTo_SetsCorrectPosition
+  href: api/Windows_Forms_App_Boose.Tests.CanvasTests.html#Windows_Forms_App_Boose_Tests_CanvasTests_MoveTo_SetsCorrectPosition_
+  commentId: Overload:Windows_Forms_App_Boose.Tests.CanvasTests.MoveTo_SetsCorrectPosition
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Tests.CanvasTests.MoveTo_SetsCorrectPosition
+  nameWithType: CanvasTests.MoveTo_SetsCorrectPosition
+- uid: Windows_Forms_App_Boose.Tests.CanvasTests.MultilineProgram_UpdatesPositionAndDrawsCorrectly
+  name: MultilineProgram_UpdatesPositionAndDrawsCorrectly()
+  href: api/Windows_Forms_App_Boose.Tests.CanvasTests.html#Windows_Forms_App_Boose_Tests_CanvasTests_MultilineProgram_UpdatesPositionAndDrawsCorrectly
+  commentId: M:Windows_Forms_App_Boose.Tests.CanvasTests.MultilineProgram_UpdatesPositionAndDrawsCorrectly
+  fullName: Windows_Forms_App_Boose.Tests.CanvasTests.MultilineProgram_UpdatesPositionAndDrawsCorrectly()
+  nameWithType: CanvasTests.MultilineProgram_UpdatesPositionAndDrawsCorrectly()
+- uid: Windows_Forms_App_Boose.Tests.CanvasTests.MultilineProgram_UpdatesPositionAndDrawsCorrectly*
+  name: MultilineProgram_UpdatesPositionAndDrawsCorrectly
+  href: api/Windows_Forms_App_Boose.Tests.CanvasTests.html#Windows_Forms_App_Boose_Tests_CanvasTests_MultilineProgram_UpdatesPositionAndDrawsCorrectly_
+  commentId: Overload:Windows_Forms_App_Boose.Tests.CanvasTests.MultilineProgram_UpdatesPositionAndDrawsCorrectly
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Tests.CanvasTests.MultilineProgram_UpdatesPositionAndDrawsCorrectly
+  nameWithType: CanvasTests.MultilineProgram_UpdatesPositionAndDrawsCorrectly
+- uid: Windows_Forms_App_Boose.Tests.CanvasTests.Setup
+  name: Setup()
+  href: api/Windows_Forms_App_Boose.Tests.CanvasTests.html#Windows_Forms_App_Boose_Tests_CanvasTests_Setup
+  commentId: M:Windows_Forms_App_Boose.Tests.CanvasTests.Setup
+  fullName: Windows_Forms_App_Boose.Tests.CanvasTests.Setup()
+  nameWithType: CanvasTests.Setup()
+- uid: Windows_Forms_App_Boose.Tests.CanvasTests.Setup*
+  name: Setup
+  href: api/Windows_Forms_App_Boose.Tests.CanvasTests.html#Windows_Forms_App_Boose_Tests_CanvasTests_Setup_
+  commentId: Overload:Windows_Forms_App_Boose.Tests.CanvasTests.Setup
+  isSpec: "True"
+  fullName: Windows_Forms_App_Boose.Tests.CanvasTests.Setup
+  nameWithType: CanvasTests.Setup
